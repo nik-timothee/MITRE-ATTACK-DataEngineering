@@ -1,0 +1,13 @@
+platform_id,platform_name
+1,Containers
+2,ESXi
+3,IaaS
+4,Identity Provider
+5,Linux
+6,Network Devices
+7,Office 365
+8,Office Suite
+9,PRE
+10,SaaS
+11,Windows
+12,macOS
