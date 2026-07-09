@@ -181,6 +181,62 @@ techniques <- Filter(function(x) {
 
 
 # ==========================================================
+# Extraction de la relation Technique ↔ Tactique
+# ==========================================================
+
+technique_tactic <- list()
+
+for (x in Filter(function(o) o$type == "attack-pattern", objects)) {
+  
+  # Récupération de l'identifiant ATT&CK (Txxxx)
+  attack_id <- NA
+  
+  if (!is.null(x$external_references)) {
+    
+    for (ref in x$external_references) {
+      
+      if (!is.null(ref$external_id)) {
+        
+        attack_id <- ref$external_id
+        break
+        
+      }
+      
+    }
+    
+  }
+  
+  # Une technique peut appartenir à plusieurs tactiques
+  if (!is.null(x$kill_chain_phases)) {
+    
+    for (phase in x$kill_chain_phases) {
+      
+      if (!is.null(phase$phase_name)) {
+        
+        technique_tactic[[length(technique_tactic) + 1]] <- data.frame(
+          
+          technique_id = x$id,
+          
+          attack_id = attack_id,
+          
+          tactic = phase$phase_name,
+          
+          stringsAsFactors = FALSE
+          
+        )
+        
+      }
+      
+    }
+    
+  }
+  
+}
+
+technique_tactic <- bind_rows(technique_tactic)
+
+
+# ==========================================================
 # Extraction des groupes APT (intrusion-set)
 # ==========================================================
 
@@ -291,9 +347,7 @@ relationships <- Filter(function(x){
 # Sauvegarde des données extraites
 # ==========================================================
 
-
 cat("Sauvegarde des fichiers CSV...\n")
-
 
 write_csv(
   tactics,
@@ -320,6 +374,11 @@ write_csv(
   "data/processed/relationships.csv"
 )
 
+write_csv(
+  technique_tactic,
+  "data/processed/technique_tactic.csv"
+)
+
 
 # ==========================================================
 # Affichage d'un résumé de l'extraction
@@ -329,8 +388,17 @@ cat("\n=====================================\n")
 cat("Extraction terminée avec succès.\n")
 cat("=====================================\n")
 
-cat("Nombre de tactiques   :", nrow(tactics), "\n")
-cat("Nombre de techniques  :", nrow(techniques), "\n")
-cat("Nombre de groupes APT :", nrow(groups), "\n")
-cat("Nombre de malwares    :", nrow(malware), "\n")
-cat("Nombre de relations   :", nrow(relationships), "\n")
+cat("Nombre de tactiques               :", nrow(tactics), "\n")
+cat("Nombre de techniques              :", nrow(techniques), "\n")
+cat("Nombre de groupes APT             :", nrow(groups), "\n")
+cat("Nombre de malwares                :", nrow(malware), "\n")
+cat("Nombre de relations               :", nrow(relationships), "\n")
+cat("Relations Technique ↔ Tactique    :", nrow(technique_tactic), "\n")
+
+
+
+
+head(technique_tactic)
+
+dim(technique_tactic)
+

@@ -1,0 +1,16 @@
+tactic,nb_utilisations,nb_groupes
+stealth,778,147
+execution,678,146
+discovery,615,112
+persistence,445,121
+command-and-control,408,128
+resource-development,408,115
+privilege-escalation,387,118
+initial-access,375,143
+collection,310,92
+credential-access,304,94
+lateral-movement,172,76
+defense-impairment,165,78
+reconnaissance,137,47
+exfiltration,91,58
+impact,84,36
