@@ -1,0 +1,14 @@
+install.packages(c(
+  "jsonlite",
+  "dplyr",
+  "tidyr",
+  "stringr",
+  "purrr",
+  "arrow",
+  "aws.s3",
+  "DBI",
+  "duckdb",
+  "ggplot2",
+  "readr",
+  "lubridate"
+))
