@@ -1,0 +1,51 @@
+attack_id,name,platforms,created
+T1027.018,Invisible Unicode,"Linux, macOS, Windows",2026-04-22
+T1687,Exploitation for Defense Impairment,"IaaS, Linux, macOS, SaaS, Windows",2026-04-14
+T1685.003,Modify or Spoof Tool UI,"Linux, macOS, Windows",2026-04-14
+T1685.001,Disable or Modify Windows Event Log,Windows,2026-04-14
+T1685.004,Disable or Modify Linux Audit System Log,Linux,2026-04-14
+T1686.003,Windows Host Firewall,Windows,2026-04-14
+T1689,Downgrade Attack,"macOS, Windows, Linux",2026-04-14
+T1685.002,Disable or Modify Cloud Log,"IaaS, SaaS, Identity Provider, Office Suite",2026-04-14
+T1684,Social Engineering,"Linux, macOS, Office Suite, SaaS, Windows",2026-04-14
+T1685.006,Clear Linux or Mac System Logs,"Linux, macOS",2026-04-14
+T1685.005,Clear Windows Event Logs,Windows,2026-04-14
+T1686.002,Network Device Firewall,Network Devices,2026-04-14
+T1690,Prevent Command History Logging,"ESXi, Linux, macOS, Network Devices, Windows",2026-04-14
+T1685,Disable or Modify Tools,"Containers, ESXi, IaaS, Linux, macOS, Network Devices, Windows",2026-04-14
+T1688,Safe Mode Boot,Windows,2026-04-14
+T1684.001,Impersonation,"Linux, macOS, Office Suite, SaaS, Windows",2026-04-14
+T1686.001,Cloud Firewall,IaaS,2026-04-14
+T1686,Disable or Modify System Firewall,"ESXi, Linux, macOS, Network Devices, Windows",2026-04-14
+T1684.002,Email Spoofing,"Linux, macOS, Office Suite, Windows",2026-04-14
+T1682,Query Public AI Services,PRE,2026-03-25
+T1683.001,Written Content,PRE,2026-03-25
+T1683.002,Audio-Visual Content,PRE,2026-03-25
+T1683,Generate Content,PRE,2026-03-25
+T1681,Search Threat Vendor Data,PRE,2025-09-26
+T1679,Selective Exclusion,Windows,2025-09-25
+T1680,Local Storage Discovery,"ESXi, IaaS, Linux, macOS, Windows",2025-09-25
+T1678,Delay Execution,"Linux, macOS, Windows",2025-09-24
+T1036.012,Browser Fingerprint,"Linux, macOS, Windows",2025-09-22
+T1059.013,Container CLI/API,Containers,2025-06-15
+T1213.006,Databases,"IaaS, Linux, macOS, SaaS, Windows",2025-05-22
+T1518.002,Backup Software Discovery,"Windows, macOS, Linux",2025-05-22
+T1204.005,Malicious Library,"Linux, macOS, Windows",2025-05-22
+T1677,Poisoned Pipeline Execution,SaaS,2025-05-22
+T1546.018,Python Startup Hooks,"Linux, macOS, Windows",2025-05-22
+T1176.001,Browser Extensions,"Linux, Windows, macOS",2025-03-30
+T1176.002,IDE Extensions,"Linux, macOS, Windows",2025-03-30
+T1675,ESXi Administration Command,ESXi,2025-03-28
+T1036.011,Overwrite Process Arguments,Linux,2025-03-27
+T1674,Input Injection,"Windows, macOS, Linux",2025-03-27
+T1673,Virtual Machine Discovery,"ESXi, Linux, macOS, Windows",2025-03-27
+T1564.014,Extended Attributes,"Linux, macOS",2025-03-27
+T1505.006,vSphere Installation Bundles,ESXi,2025-03-27
+T1219.003,Remote Access Hardware,"Linux, macOS, Windows",2025-03-26
+T1059.012,Hypervisor CLI,ESXi,2025-03-26
+T1027.017,SVG Smuggling,"Linux, macOS, Windows",2025-03-25
+T1219.002,Remote Desktop Software,"Linux, macOS, Windows",2025-03-24
+T1127.003,JamPlus,Windows,2025-03-21
+T1219.001,IDE Tunneling,"Linux, macOS, Windows",2025-03-20
+T1671,Cloud Application Integration,"Office Suite, SaaS",2025-03-20
+T1569.003,Systemctl,Linux,2025-03-18

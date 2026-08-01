@@ -1,0 +1,322 @@
+group_name,technique_id,attack_id,technique,tactic,platforms
+APT28,attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24,T1003.003,NTDS,credential-access,Windows
+Lazarus Group,attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62,T1059.003,Windows Command Shell,execution,Windows
+APT41,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,stealth,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT41,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,persistence,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT41,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,privilege-escalation,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT41,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,initial-access,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT28,attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161,T1589.001,Credentials,reconnaissance,PRE
+Lazarus Group,attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597,T1566.001,Spearphishing Attachment,initial-access,"Linux, macOS, Windows"
+APT28,attack-pattern--937e4772-8441-4e4a-8bf0-8d447d667e23,T1591,Gather Victim Org Information,reconnaissance,PRE
+APT28,attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d,T1564.001,Hidden Files and Directories,stealth,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--3b0e52ce-517a-4614-a523-1bd5deef6c5e,T1202,Indirect Command Execution,stealth,Windows
+Lazarus Group,attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b,T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,exfiltration,"ESXi, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--c325b232-d5bc-4dde-a3ec-71f3db9e8adc,T1001.003,Protocol or Service Impersonation,command-and-control,"ESXi, Linux, macOS, Windows"
+APT28,attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795,T1583.003,Virtual Private Server,resource-development,PRE
+APT28,attack-pattern--55fc4df0-b42c-479a-b860-7a6761bcaad0,T1596,Search Open Technical Databases,reconnaissance,PRE
+APT28,attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3,T1583.001,Domains,resource-development,PRE
+Lazarus Group,attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5,T1584.004,Server,resource-development,PRE
+APT41,attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1,T1082,System Information Discovery,discovery,"ESXi, IaaS, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611,T1070.006,Timestomp,stealth,"ESXi, Linux, macOS, Windows"
+APT28,attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3,T1090.002,External Proxy,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00,T1195.002,Compromise Software Supply Chain,initial-access,"Linux, Windows, macOS"
+Lazarus Group,attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add,T1105,Ingress Tool Transfer,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade,T1218.005,Mshta,stealth,Windows
+APT28,attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597,T1566.001,Spearphishing Attachment,initial-access,"Linux, macOS, Windows"
+APT41,attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce,T1069,Permission Groups Discovery,discovery,"Containers, IaaS, Identity Provider, Linux, macOS, Office Suite, SaaS, Windows"
+APT28,attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736,T1059.001,PowerShell,execution,Windows
+APT28,attack-pattern--8e350c1d-ac79-4b5c-bd4e-7476d7e84ec5,T1048.002,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,exfiltration,"ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830,T1010,Application Window Discovery,discovery,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0,T1587.001,Malware,resource-development,PRE
+APT28,attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279,T1547.001,Registry Run Keys / Startup Folder,persistence,Windows
+APT28,attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279,T1547.001,Registry Run Keys / Startup Folder,privilege-escalation,Windows
+APT41,attack-pattern--bed04f7d-e48a-4e76-bd0f-4c57fe31fc46,T1595.003,Wordlist Scanning,reconnaissance,PRE
+Lazarus Group,attack-pattern--677569f9-a8b0-459e-ab24-7f18091fa7bf,T1134.002,Create Process with Token,stealth,Windows
+Lazarus Group,attack-pattern--677569f9-a8b0-459e-ab24-7f18091fa7bf,T1134.002,Create Process with Token,privilege-escalation,Windows
+APT41,attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736,T1059.001,PowerShell,execution,Windows
+APT28,attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144,T1027.013,Encrypted/Encoded File,stealth,"Linux, macOS, Windows"
+APT28,attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63,T1203,Exploitation for Client Execution,execution,"Linux, macOS, Windows"
+APT28,attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b,T1586.002,Email Accounts,resource-development,PRE
+APT28,attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a,T1114.002,Remote Email Collection,collection,"Office Suite, Windows"
+APT41,attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b,T1014,Rootkit,stealth,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6,T1021.004,SSH,lateral-movement,"ESXi, Linux, macOS"
+APT28,attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb,T1505.003,Web Shell,persistence,"Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af,T1087.002,Domain Account,discovery,"Linux, macOS, Windows"
+APT28,attack-pattern--149b477f-f364-4824-b1b5-aa1d56115869,T1584.008,Network Devices,resource-development,PRE
+APT28,attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e,T1550.002,Pass the Hash,lateral-movement,Windows
+Lazarus Group,attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27,T1098,Account Manipulation,persistence,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+Lazarus Group,attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27,T1098,Account Manipulation,privilege-escalation,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT28,attack-pattern--eb125d40-0b2d-41ac-a71a-3229241c2cd3,T1037.001,Logon Script (Windows),persistence,Windows
+APT28,attack-pattern--eb125d40-0b2d-41ac-a71a-3229241c2cd3,T1037.001,Logon Script (Windows),privilege-escalation,Windows
+APT41,attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8,T1555.003,Credentials from Web Browsers,credential-access,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d,T1564.001,Hidden Files and Directories,stealth,"Linux, macOS, Windows"
+APT28,attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0,T1588.002,Tool,resource-development,PRE
+Lazarus Group,attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c,T1485,Data Destruction,impact,"Containers, ESXi, IaaS, Linux, macOS, Windows"
+APT28,attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0,T1564.003,Hidden Window,stealth,"Linux, macOS, Windows"
+APT41,attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2,T1036.005,Match Legitimate Resource Name or Location,stealth,"Containers, ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32,T1543.003,Windows Service,persistence,Windows
+APT41,attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32,T1543.003,Windows Service,privilege-escalation,Windows
+APT28,attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d,T1090.003,Multi-hop Proxy,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--937e4772-8441-4e4a-8bf0-8d447d667e23,T1591,Gather Victim Org Information,reconnaissance,PRE
+Lazarus Group,attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670,T1106,Native API,execution,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,stealth,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+Lazarus Group,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,persistence,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+Lazarus Group,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,privilege-escalation,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+Lazarus Group,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,initial-access,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT28,attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807,T1567,Exfiltration Over Web Service,exfiltration,"ESXi, Linux, macOS, Office Suite, SaaS, Windows"
+APT41,attack-pattern--9a60a291-8960-4387-8a4a-2ab5c18bb50b,T1071.002,File Transfer Protocols,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4,T1056.001,Keylogging,collection,"Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4,T1056.001,Keylogging,credential-access,"Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735,T1018,Remote System Discovery,discovery,"ESXi, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--deb98323-e13f-4b0c-8d94-175379069062,T1027.002,Software Packing,stealth,"Linux, macOS, Windows"
+APT28,attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18,T1083,File and Directory Discovery,discovery,"ESXi, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082,T1553.002,Code Signing,defense-impairment,"macOS, Windows"
+Lazarus Group,attack-pattern--0533ab23-3f7d-463f-9bd8-634d27e4dee1,T1027.009,Embedded Payloads,stealth,"Linux, macOS, Windows"
+APT28,attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c,T1190,Exploit Public-Facing Application,initial-access,"Containers, ESXi, IaaS, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--ec4be82f-940c-4dcb-87fe-2bbdd17c692f,T1596.005,Scan Databases,reconnaissance,PRE
+APT41,attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0,T1588.002,Tool,resource-development,PRE
+APT41,attack-pattern--3e6831b2-bf4c-4ae6-b328-2e7c6633b291,T1098.007,Additional Local or Domain Groups,persistence,"Windows, macOS, Linux"
+APT41,attack-pattern--3e6831b2-bf4c-4ae6-b328-2e7c6633b291,T1098.007,Additional Local or Domain Groups,privilege-escalation,"Windows, macOS, Linux"
+APT41,attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541,T1021.002,SMB/Windows Admin Shares,lateral-movement,Windows
+Lazarus Group,attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896,T1012,Query Registry,discovery,Windows
+Lazarus Group,attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3,T1090.002,External Proxy,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--0d91b3c0-5e50-47c3-949a-2a796f04d144,T1027.013,Encrypted/Encoded File,stealth,"Linux, macOS, Windows"
+APT28,attack-pattern--fde016f6-211a-41c8-a4ab-301f1e419c62,T1669,Wi-Fi Networks,initial-access,"Linux, Network Devices, Windows, macOS"
+Lazarus Group,attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91,T1104,Multi-Stage Channels,command-and-control,"Linux, macOS, Windows, ESXi"
+APT41,attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334,T1037,Boot or Logon Initialization Scripts,persistence,"ESXi, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334,T1037,Boot or Logon Initialization Scripts,privilege-escalation,"ESXi, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88,T1046,Network Service Discovery,discovery,"Containers, IaaS, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5,T1005,Data from Local System,collection,"ESXi, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--635cbe30-392d-4e27-978e-66774357c762,T1136.001,Local Account,persistence,"Containers, ESXi, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b,T1489,Service Stop,impact,"ESXi, IaaS, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0,T1016,System Network Configuration Discovery,discovery,"ESXi, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421,T1588.004,Digital Certificates,resource-development,PRE
+APT28,attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c,T1039,Data from Network Shared Drive,collection,"Linux, macOS, Windows"
+APT41,attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba,T1542.003,Bootkit,stealth,"Linux, Windows"
+APT41,attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba,T1542.003,Bootkit,persistence,"Linux, Windows"
+APT41,attack-pattern--75b9a4d2-d4e2-4ca1-9aab-1badd9e05fd0,T1685.005,Clear Windows Event Logs,defense-impairment,Windows
+APT28,attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688,T1113,Screen Capture,collection,"Linux, macOS, Windows"
+APT41,attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e,T1087.001,Local Account,discovery,"ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161,T1071.001,Web Protocols,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--09c4c11e-4fa1-4f8c-8dad-3cf8e69ad119,T1110.001,Password Guessing,credential-access,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+Lazarus Group,attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41,T1573.001,Symmetric Cryptography,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1,T1082,System Information Discovery,discovery,"ESXi, IaaS, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f,T1135,Network Share Discovery,discovery,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104,T1033,System Owner/User Discovery,discovery,"Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--b8017880-4b1e-42de-ad10-ae7ac6705166,T1599,Network Boundary Bridging,defense-impairment,Network Devices
+Lazarus Group,attack-pattern--4933e63b-9b77-476e-ab29-761bc5b7d15a,T1620,Reflective Code Loading,stealth,"Linux, macOS, Windows"
+APT28,attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54,T1583.006,Web Services,resource-development,PRE
+APT28,attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580,T1057,Process Discovery,discovery,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6,T1189,Drive-by Compromise,initial-access,"Identity Provider, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d,T1041,Exfiltration Over C2 Channel,exfiltration,"ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--f244b8dd-af6c-4391-a497-fc03627ce995,T1480.001,Environmental Keying,stealth,"Linux, Windows, macOS"
+APT41,attack-pattern--5d2be8b9-d24c-4e98-83bf-2f5f79477163,T1484.001,Group Policy Modification,defense-impairment,Windows
+APT41,attack-pattern--5d2be8b9-d24c-4e98-83bf-2f5f79477163,T1484.001,Group Policy Modification,privilege-escalation,Windows
+APT41,attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4,T1595.002,Vulnerability Scanning,reconnaissance,PRE
+Lazarus Group,attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4,T1102.002,Bidirectional Communication,command-and-control,"ESXi, Linux, macOS, Windows"
+APT28,attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4,T1595.002,Vulnerability Scanning,reconnaissance,PRE
+APT28,attack-pattern--bc0f5e80-91c0-4e04-9fbb-e4e332c85dae,T1546.015,Component Object Model Hijacking,privilege-escalation,Windows
+APT28,attack-pattern--bc0f5e80-91c0-4e04-9fbb-e4e332c85dae,T1546.015,Component Object Model Hijacking,persistence,Windows
+APT41,attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5,T1005,Data from Local System,collection,"ESXi, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a,T1560,Archive Collected Data,collection,"Linux, macOS, Windows"
+APT41,attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d,T1133,External Remote Services,persistence,"Containers, Linux, macOS, Windows"
+APT41,attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d,T1133,External Remote Services,initial-access,"Containers, Linux, macOS, Windows"
+APT28,attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925,T1199,Trusted Relationship,initial-access,"IaaS, Identity Provider, Linux, macOS, Office Suite, SaaS, Windows"
+APT41,attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c,T1070.004,File Deletion,stealth,"ESXi, Linux, macOS, Windows"
+APT28,attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643,T1120,Peripheral Device Discovery,discovery,"Linux, macOS, Windows"
+APT28,attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62,T1059.003,Windows Command Shell,execution,Windows
+Lazarus Group,attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63,T1203,Exploitation for Client Execution,execution,"Linux, macOS, Windows"
+APT28,attack-pattern--48b836c6-e4ca-435a-82a3-29c03e5b492e,T1557.004,Evil Twin,credential-access,Network Devices
+APT28,attack-pattern--48b836c6-e4ca-435a-82a3-29c03e5b492e,T1557.004,Evil Twin,collection,Network Devices
+Lazarus Group,attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736,T1059.001,PowerShell,execution,Windows
+Lazarus Group,attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7,T1566.002,Spearphishing Link,initial-access,"Identity Provider, Linux, macOS, Office Suite, SaaS, Windows"
+APT28,attack-pattern--d74c4a7e-ffbf-432f-9365-7ebf1f787cab,T1498,Network Denial of Service,impact,"Windows, IaaS, Linux, macOS, Containers"
+APT28,attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c,T1070.004,File Deletion,stealth,"ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c,T1074.001,Local Data Staging,collection,"ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597,T1566.001,Spearphishing Attachment,initial-access,"Linux, macOS, Windows"
+APT28,attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a,T1560,Archive Collected Data,collection,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--bd5b58a4-a52d-4a29-bc0d-3f1d3968eb6b,T1036.003,Rename Legitimate Utilities,stealth,"Linux, macOS, Windows"
+APT28,attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add,T1105,Ingress Tool Transfer,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--bbde9781-60aa-4b8a-a911-895b0c1b3872,T1685,Disable or Modify Tools,defense-impairment,"Containers, ESXi, IaaS, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055,T1047,Windows Management Instrumentation,execution,Windows
+Lazarus Group,attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161,T1071.001,Web Protocols,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--cca0ccb6-a068-4574-a722-b1556f86833a,T1598,Phishing for Information,reconnaissance,PRE
+Lazarus Group,attack-pattern--650c784b-7504-4df7-ab2c-4ea882384d1e,T1557.001,Name Resolution Poisoning and SMB Relay,credential-access,Windows
+Lazarus Group,attack-pattern--650c784b-7504-4df7-ab2c-4ea882384d1e,T1557.001,Name Resolution Poisoning and SMB Relay,collection,Windows
+Lazarus Group,attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580,T1057,Process Discovery,discovery,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d,T1559.002,Dynamic Data Exchange,execution,Windows
+APT28,attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2,T1036.005,Match Legitimate Resource Name or Location,stealth,"Containers, ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9,T1053.005,Scheduled Task,execution,Windows
+APT41,attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9,T1053.005,Scheduled Task,persistence,Windows
+APT41,attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9,T1053.005,Scheduled Task,privilege-escalation,Windows
+Lazarus Group,attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279,T1547.001,Registry Run Keys / Startup Folder,persistence,Windows
+Lazarus Group,attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279,T1547.001,Registry Run Keys / Startup Folder,privilege-escalation,Windows
+APT41,attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279,T1547.001,Registry Run Keys / Startup Folder,persistence,Windows
+APT41,attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279,T1547.001,Registry Run Keys / Startup Folder,privilege-escalation,Windows
+Lazarus Group,attack-pattern--bbde9781-60aa-4b8a-a911-895b0c1b3872,T1685,Disable or Modify Tools,defense-impairment,"Containers, ESXi, IaaS, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262,T1589.002,Email Addresses,reconnaissance,PRE
+APT28,attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619,T1119,Automated Collection,collection,"IaaS, Linux, macOS, Office Suite, SaaS, Windows"
+APT41,attack-pattern--70e52b04-2a0c-4cea-9d18-7149f1df9dc5,T1546.008,Accessibility Features,privilege-escalation,Windows
+APT41,attack-pattern--70e52b04-2a0c-4cea-9d18-7149f1df9dc5,T1546.008,Accessibility Features,persistence,Windows
+APT28,attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65,T1078.004,Cloud Accounts,stealth,"IaaS, Identity Provider, Office Suite, SaaS"
+APT28,attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65,T1078.004,Cloud Accounts,persistence,"IaaS, Identity Provider, Office Suite, SaaS"
+APT28,attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65,T1078.004,Cloud Accounts,privilege-escalation,"IaaS, Identity Provider, Office Suite, SaaS"
+APT28,attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65,T1078.004,Cloud Accounts,initial-access,"IaaS, Identity Provider, Office Suite, SaaS"
+APT28,attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534,T1221,Template Injection,stealth,Windows
+APT28,attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5,T1005,Data from Local System,collection,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a,T1213.002,Sharepoint,collection,"Office Suite, Windows"
+APT28,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,stealth,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT28,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,persistence,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT28,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,privilege-escalation,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT28,attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,T1078,Valid Accounts,initial-access,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+Lazarus Group,attack-pattern--fb640c43-aa6b-431e-a961-a279010424ac,T1561.001,Disk Content Wipe,impact,"Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec,T1025,Data from Removable Media,collection,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--8c41090b-aa47-4331-986b-8c9a51a91103,T1491.001,Internal Defacement,impact,"ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd,T1110,Brute Force,credential-access,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT41,attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e,T1550.002,Pass the Hash,lateral-movement,Windows
+Lazarus Group,attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0,T1588.002,Tool,resource-development,PRE
+Lazarus Group,attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179,T1547.009,Shortcut Modification,persistence,Windows
+Lazarus Group,attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179,T1547.009,Shortcut Modification,privilege-escalation,Windows
+Lazarus Group,attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67,T1059.005,Visual Basic,execution,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba,T1542.003,Bootkit,stealth,"Linux, Windows"
+Lazarus Group,attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba,T1542.003,Bootkit,persistence,"Linux, Windows"
+Lazarus Group,attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5,T1218.011,Rundll32,stealth,Windows
+Lazarus Group,attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54,T1583.006,Web Services,resource-development,PRE
+Lazarus Group,attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4,T1056.001,Keylogging,collection,"Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4,T1056.001,Keylogging,credential-access,"Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--633a100c-b2c9-41bf-9be5-905c1b16c825,T1574.006,Dynamic Linker Hijacking,stealth,"Linux, macOS"
+APT41,attack-pattern--633a100c-b2c9-41bf-9be5-905c1b16c825,T1574.006,Dynamic Linker Hijacking,execution,"Linux, macOS"
+Lazarus Group,attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18,T1571,Non-Standard Port,command-and-control,"ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c,T1132.001,Standard Encoding,command-and-control,"ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62,T1059.003,Windows Command Shell,execution,Windows
+APT41,attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011,T1003.002,Security Account Manager,credential-access,Windows
+Lazarus Group,attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6,T1189,Drive-by Compromise,initial-access,"Identity Provider, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c,T1110.003,Password Spraying,credential-access,"Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS"
+Lazarus Group,attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e,T1204.002,Malicious File,execution,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082,T1553.002,Code Signing,defense-impairment,"macOS, Windows"
+APT41,attack-pattern--118f61a5-eb3e-4fb6-931f-2096647f4ecd,T1568.002,Domain Generation Algorithms,command-and-control,"ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4,T1569.002,Service Execution,execution,Windows
+APT41,attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72,T1071.004,DNS,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161,T1071.001,Web Protocols,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88,T1046,Network Service Discovery,discovery,"Containers, IaaS, Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--457c7820-d331-465a-915e-42f85500ccc4,T1218,System Binary Proxy Execution,stealth,"Linux, macOS, Windows"
+APT41,attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662,T1560.001,Archive via Utility,collection,"Linux, macOS, Windows"
+APT41,attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5,T1218.011,Rundll32,stealth,Windows
+Lazarus Group,attack-pattern--41868330-6ee2-4d0f-b743-9f2294c3c9b6,T1560.002,Archive via Library,collection,"Linux, macOS, Windows"
+APT28,attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416,T1213,Data from Information Repositories,collection,"Linux, Windows, macOS, SaaS, IaaS, Office Suite"
+APT28,attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5,T1218.011,Rundll32,stealth,Windows
+APT28,attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662,T1560.001,Archive via Utility,collection,"Linux, macOS, Windows"
+APT28,attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c,T1140,Deobfuscate/Decode Files or Information,stealth,"ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--ea4c2f9c-9df1-477c-8c42-6da1118f2ac4,T1027.007,Dynamic API Resolution,stealth,Windows
+APT41,attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7,T1102.001,Dead Drop Resolver,command-and-control,"ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433,T1008,Fallback Channels,command-and-control,"ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c,T1070.004,File Deletion,stealth,"ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755,T1090.001,Internal Proxy,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230,T1598.003,Spearphishing Link,reconnaissance,PRE
+APT41,attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0,T1555,Credentials from Password Stores,credential-access,"IaaS, Linux, macOS, Windows"
+APT28,attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba,T1542.003,Bootkit,stealth,"Linux, Windows"
+APT28,attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba,T1542.003,Bootkit,persistence,"Linux, Windows"
+APT41,attack-pattern--a718a0c8-5768-41a1-9958-a1cc3f995e99,T1496.001,Compute Hijacking,impact,"Windows, IaaS, Linux, macOS, Containers"
+APT28,attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b,T1071.003,Mail Protocols,command-and-control,"Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0,T1036,Masquerading,stealth,"Containers, ESXi, Linux, macOS, Windows"
+APT28,attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82,T1210,Exploitation of Remote Services,lateral-movement,"Linux, Windows, macOS, ESXi"
+APT41,attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24,T1003.003,NTDS,credential-access,Windows
+APT28,attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b,T1014,Rootkit,stealth,"Linux, macOS, Windows"
+APT41,attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475,T1049,System Network Connections Discovery,discovery,"ESXi, IaaS, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56,T1059.004,Unix Shell,execution,"ESXi, Linux, macOS, Network Devices"
+Lazarus Group,attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433,T1008,Fallback Channels,command-and-control,"ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c,T1140,Deobfuscate/Decode Files or Information,stealth,"ESXi, Linux, macOS, Windows"
+APT28,attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e,T1204.002,Malicious File,execution,"Linux, macOS, Windows"
+APT41,attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0,T1486,Data Encrypted for Impact,impact,"ESXi, IaaS, Linux, macOS, Windows"
+APT41,attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0,T1016,System Network Configuration Discovery,discovery,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--f005e783-57d4-4837-88ad-dbe7faee1c51,T1550.001,Application Access Token,lateral-movement,"Containers, IaaS, Identity Provider, Office Suite, SaaS"
+APT41,attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104,T1033,System Owner/User Discovery,discovery,"Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--f2514ae4-4e9b-4f26-a5ba-c4ae85fe93c3,T1680,Local Storage Discovery,discovery,"ESXi, IaaS, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9,T1561.002,Disk Structure Wipe,impact,"Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3,T1583.001,Domains,resource-development,PRE
+APT41,attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add,T1105,Ingress Tool Transfer,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd,T1030,Data Transfer Size Limits,exfiltration,"Linux, macOS, Windows, ESXi"
+APT28,attack-pattern--86850eff-2729-40c3-b85e-c4af26da4a2d,T1134.001,Token Impersonation/Theft,stealth,Windows
+APT28,attack-pattern--86850eff-2729-40c3-b85e-c4af26da4a2d,T1134.001,Token Impersonation/Theft,privilege-escalation,Windows
+Lazarus Group,attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9,T1053.005,Scheduled Task,execution,Windows
+Lazarus Group,attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9,T1053.005,Scheduled Task,persistence,Windows
+Lazarus Group,attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9,T1053.005,Scheduled Task,privilege-escalation,Windows
+Lazarus Group,attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317,T1566.003,Spearphishing via Service,initial-access,"Linux, macOS, Windows"
+APT41,attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63,T1203,Exploitation for Client Execution,execution,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2,T1036.005,Match Legitimate Resource Name or Location,stealth,"Containers, ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69,T1070,Indicator Removal,stealth,"Containers, ESXi, Linux, macOS, Network Devices, Office Suite, Windows"
+Lazarus Group,attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18,T1083,File and Directory Discovery,discovery,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0,T1074.002,Remote Data Staging,collection,"ESXi, IaaS, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--a4657bc9-d22f-47d2-a7b7-dd6ec33f3dde,T1574.013,KernelCallbackTable,stealth,Windows
+Lazarus Group,attack-pattern--a4657bc9-d22f-47d2-a7b7-dd6ec33f3dde,T1574.013,KernelCallbackTable,execution,Windows
+Lazarus Group,attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945,T1055.001,Dynamic-link Library Injection,stealth,Windows
+Lazarus Group,attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945,T1055.001,Dynamic-link Library Injection,privilege-escalation,Windows
+Lazarus Group,attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928,T1585.001,Social Media Accounts,resource-development,PRE
+APT41,attack-pattern--a6937325-9321-4e2e-bb2b-3ed2d40b2a9d,T1218.001,Compiled HTML File,stealth,Windows
+APT28,attack-pattern--64196062-5210-42c3-9a02-563a0d1797ef,T1092,Communication Through Removable Media,command-and-control,"Linux, macOS, Windows"
+APT28,attack-pattern--e74de37c-a829-446c-937d-56a44f0e9306,T1098.002,Additional Email Delegate Permissions,persistence,"Windows, Office Suite"
+APT28,attack-pattern--e74de37c-a829-446c-937d-56a44f0e9306,T1098.002,Additional Email Delegate Permissions,privilege-escalation,"Windows, Office Suite"
+Lazarus Group,attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf,T1021.001,Remote Desktop Protocol,lateral-movement,Windows
+APT28,attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22,T1003,OS Credential Dumping,credential-access,"Linux, macOS, Windows"
+APT41,attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4,T1112,Modify Registry,defense-impairment,Windows
+APT41,attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4,T1112,Modify Registry,persistence,Windows
+APT41,attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea,T1090,Proxy,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529,T1040,Network Sniffing,credential-access,"IaaS, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529,T1040,Network Sniffing,discovery,"IaaS, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90,T1003.001,LSASS Memory,credential-access,Windows
+Lazarus Group,attack-pattern--ff73aa03-0090-4464-83ac-f89e233c02bc,T1529,System Shutdown/Reboot,impact,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839,T1068,Exploitation for Privilege Escalation,privilege-escalation,"Containers, Linux, macOS, Windows"
+APT41,attack-pattern--cd92d2b8-ce43-4666-9472-f1b4b9f4f8be,T1684.001,Impersonation,stealth,"Linux, macOS, Office Suite, SaaS, Windows"
+Lazarus Group,attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077,T1124,System Time Discovery,discovery,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--ed7efd4d-ce28-4a19-a8e6-c58011eb2c7a,T1137.002,Office Test,persistence,"Windows, Office Suite"
+APT41,attack-pattern--cff94884-3b1c-4987-a70b-6d5643c621c3,T1213.003,Code Repositories,collection,SaaS
+Lazarus Group,attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c,T1036.004,Masquerade Task or Service,stealth,"Linux, macOS, Windows"
+APT41,attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7,T1197,BITS Jobs,stealth,Windows
+APT41,attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7,T1197,BITS Jobs,persistence,Windows
+APT41,attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7,T1197,BITS Jobs,execution,Windows
+APT28,attack-pattern--890c9858-598c-401d-a4d5-c67ebcdd703a,T1528,Steal Application Access Token,credential-access,"Containers, IaaS, Identity Provider, Office Suite, SaaS"
+Lazarus Group,attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611,T1070.006,Timestomp,stealth,"ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a,T1070.003,Clear Command History,stealth,"ESXi, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896,T1012,Query Registry,discovery,Windows
+APT28,attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c,T1110.003,Password Spraying,credential-access,"Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS"
+APT28,attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9,T1204.001,Malicious Link,execution,"Linux, macOS, Windows"
+APT28,attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d,T1133,External Remote Services,persistence,"Containers, Linux, macOS, Windows"
+APT28,attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d,T1133,External Remote Services,initial-access,"Containers, Linux, macOS, Windows"
+APT41,attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18,T1083,File and Directory Discovery,discovery,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4,T1102.002,Bidirectional Communication,command-and-control,"ESXi, Linux, macOS, Windows"
+Lazarus Group,attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34,T1574.001,DLL,stealth,Windows
+Lazarus Group,attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34,T1574.001,DLL,execution,Windows
+APT28,attack-pattern--f7c0689c-4dbd-489b-81be-7cb7c7079ade,T1001.001,Junk Data,command-and-control,"ESXi, Linux, macOS, Windows"
+APT28,attack-pattern--75b9a4d2-d4e2-4ca1-9aab-1badd9e05fd0,T1685.005,Clear Windows Event Logs,defense-impairment,Windows
+Lazarus Group,attack-pattern--291ede6c-1473-454c-b614-5ac5ea63c987,T1686.003,Windows Host Firewall,defense-impairment,Windows
+APT41,attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d,T1055,Process Injection,stealth,"Linux, macOS, Windows"
+APT41,attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d,T1055,Process Injection,privilege-escalation,"Linux, macOS, Windows"
+Lazarus Group,attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32,T1543.003,Windows Service,persistence,Windows
+Lazarus Group,attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32,T1543.003,Windows Service,privilege-escalation,Windows
+APT28,attack-pattern--fe926152-f431-4baf-956c-4ad3cb0bf23b,T1211,Exploitation for Stealth,stealth,"Linux, Windows, macOS, SaaS, IaaS"
+Lazarus Group,attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541,T1021.002,SMB/Windows Admin Shares,lateral-movement,Windows
+APT28,attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90,T1003.001,LSASS Memory,credential-access,Windows
+APT41,attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf,T1021.001,Remote Desktop Protocol,lateral-movement,Windows
+APT41,attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c,T1190,Exploit Public-Facing Application,initial-access,"Containers, ESXi, IaaS, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41,T1573.001,Symmetric Cryptography,command-and-control,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c,T1074.001,Local Data Staging,collection,"ESXi, Linux, macOS, Windows"
+APT28,attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4,T1091,Replication Through Removable Media,lateral-movement,Windows
+APT28,attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4,T1091,Replication Through Removable Media,initial-access,Windows
+Lazarus Group,attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a,T1585.002,Email Accounts,resource-development,PRE
+APT41,attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5,T1570,Lateral Tool Transfer,lateral-movement,"ESXi, Linux, macOS, Windows"
+APT41,attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a,T1027,Obfuscated Files or Information,stealth,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--0cc222f5-c3ff-48e6-9f52-3314baf9d37e,T1588.007,Artificial Intelligence,resource-development,PRE
+APT41,attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91,T1104,Multi-Stage Channels,command-and-control,"Linux, macOS, Windows, ESXi"
+APT41,attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd,T1030,Data Transfer Size Limits,exfiltration,"Linux, macOS, Windows, ESXi"
+APT41,attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055,T1047,Windows Management Instrumentation,execution,Windows
+Lazarus Group,attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475,T1049,System Network Connections Discovery,discovery,"ESXi, IaaS, Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4,T1056.001,Keylogging,collection,"Linux, macOS, Network Devices, Windows"
+APT41,attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4,T1056.001,Keylogging,credential-access,"Linux, macOS, Network Devices, Windows"
+Lazarus Group,attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b,T1560.003,Archive via Custom Method,collection,"Linux, macOS, Windows"
+APT41,attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a,T1070.003,Clear Command History,stealth,"ESXi, Linux, macOS, Network Devices, Windows"
+APT28,attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd,T1110,Brute Force,credential-access,"Containers, ESXi, IaaS, Identity Provider, Linux, macOS, Network Devices, Office Suite, SaaS, Windows"
+APT41,attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c,T1036.004,Masquerade Task or Service,stealth,"Linux, macOS, Windows"
+APT28,attack-pattern--cd92d2b8-ce43-4666-9472-f1b4b9f4f8be,T1684.001,Impersonation,stealth,"Linux, macOS, Office Suite, SaaS, Windows"
+APT28,attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541,T1021.002,SMB/Windows Admin Shares,lateral-movement,Windows
+APT41,attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34,T1574.001,DLL,stealth,Windows
+APT41,attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34,T1574.001,DLL,execution,Windows
