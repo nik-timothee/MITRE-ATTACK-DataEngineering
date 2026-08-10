@@ -171,6 +171,14 @@ techniques <- Filter(function(x) {
       # Technique obsolète ?
       deprecated = isTRUE(x$x_mitre_deprecated),
       
+      # Date de création de la technique dans le JSON STIX
+      # Utile pour identifier les techniques émergentes
+      created = ifelse(
+        is.null(x$created),
+        NA,
+        x$created
+      ),
+      
       stringsAsFactors = FALSE
       
     )
@@ -395,10 +403,14 @@ cat("Nombre de malwares                :", nrow(malware), "\n")
 cat("Nombre de relations               :", nrow(relationships), "\n")
 cat("Relations Technique ↔ Tactique    :", nrow(technique_tactic), "\n")
 
-
-
-
 head(technique_tactic)
-
 dim(technique_tactic)
 
+
+
+
+
+
+
+techniques <- read_csv("data/processed/techniques.csv", show_col_types = FALSE)
+colnames(techniques)

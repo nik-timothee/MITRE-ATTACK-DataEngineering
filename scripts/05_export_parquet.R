@@ -63,6 +63,30 @@ bridge_technique_platform <- read_csv(
   show_col_types = FALSE
 )
 
+
+
+top_groups <- read_csv(
+  "data/analytics/top_groups.csv",
+  show_col_types = FALSE
+)
+
+top_platforms <- read_csv(
+  "data/analytics/top_platforms.csv",
+  show_col_types = FALSE
+)
+
+top_tactics <- read_csv(
+  "data/analytics/top_tactics.csv",
+  show_col_types = FALSE
+)
+
+top_techniques <- read_csv(
+  "data/analytics/top_techniques.csv",
+  show_col_types = FALSE
+)
+
+
+
 cat("Toutes les tables ont été chargées.\n\n")
 
 
@@ -99,6 +123,31 @@ write_parquet(
   bridge_technique_platform,
   "data/parquet/bridge_technique_platform.parquet"
 )
+
+
+
+write_parquet(
+  top_tactics,
+  "data/parquet/top_tactics.parquet"
+)
+
+write_parquet(
+  top_techniques,
+  "data/parquet/top_techniques.parquet"
+)
+
+write_parquet(
+  top_groups,
+  "data/parquet/top_groups.parquet"
+)
+
+write_parquet(
+  top_platforms,
+  "data/parquet/top_platforms.parquet"
+)
+
+
+
 
 cat("Tous les fichiers ont été convertis en Parquet.\n\n")
 

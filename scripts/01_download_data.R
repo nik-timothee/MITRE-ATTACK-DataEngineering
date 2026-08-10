@@ -31,7 +31,7 @@ files <- c(
 # -----------------------------
 # Téléchargement
 # -----------------------------
-
+    
 for(name in names(files)){
   
   destination <- file.path(raw_dir,
